@@ -4,6 +4,6 @@
     "display_description": "Retrieve pages from the user's past browsing history, optionally filtered by topic and/or time range.",
     "version": "1.0",
     "enabled": true,
-    "is_default": false,
-    "toolset": ""
+    "is_default": true,
+    "tags": []
 }
