@@ -1,0 +1,24 @@
+{
+    "type": "function",
+    "function": {
+        "name": "search_browsing_history",
+        "description": "Retrieve pages from the user's past browsing history, optionally filtered by topic and/or time range.",
+        "parameters": {
+        "type": "object",
+        "properties": {
+            "searchTerm": {
+                "type": "string",
+                "description": "A concise phrase describing what the user is trying to find in their browsing history (topic, site, or purpose)."
+                },
+            "startTs": {
+            "type": "string",
+            "description": "Inclusive start of the time range as a local ISO 8601 datetime ('YYYY-MM-DDTHH:mm:ss', no timezone)."
+            },
+            "endTs": {
+            "type": "string",
+            "description": "Inclusive end of the time range as a local ISO 8601 datetime ('YYYY-MM-DDTHH:mm:ss', no timezone)."
+            }
+        }
+        }
+    }
+}
